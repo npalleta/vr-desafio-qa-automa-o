@@ -1,2 +1,2 @@
-# vr-desafio-qa-automa-o
+# vr-desafio-qa-automacao
 vr-desafio-qa-automação
