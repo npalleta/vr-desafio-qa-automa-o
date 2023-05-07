@@ -9,4 +9,4 @@ Cenário: Realizar a chamada da api GET_VR_APT
     Então o status code 200 deverá ser validado
     E a key "typeOfEstablishment" presente na api deverá ser validada
     E a lista de dados sobre estabelecimentos deverá ser apresentada
-    E o último item da lista de dados sobre estabelecimentos deverá ser apresentada
+    E o último item da lista de dados sobre estabelecimentos deverá ser apresentado
