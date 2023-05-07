@@ -10,7 +10,7 @@ class GetVRAPT
   end
 
   def get_request
-    @response = HTTParty.get Settings.get_homol_url('api-web/comum/enumerations/VRPAT'),
+    @response = HTTParty.get Settings.get_url('api-web/comum/enumerations/VRPAT'),
       headers: {
         'Content-Type' => 'application/json'
       }
