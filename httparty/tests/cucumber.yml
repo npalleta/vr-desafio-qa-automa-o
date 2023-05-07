@@ -1,7 +1,0 @@
-##YAML Template
----
-default: -p environment -p allure_report --publish-quiet
-allure_report: --format AllureCucumber::CucumberFormatter
-html_report: --format progress --format html --out=features_report.html
-json_report: -f Cucumber::Formatter::Json --out=results/cucumber_json/features_report.json
-environment: ENVIRONMENT=environment
