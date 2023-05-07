@@ -11,9 +11,9 @@ class GetVRAPT
 
   def get_request
     @response = HTTParty.get Settings.get_homol_url('api-web/comum/enumerations/VRPAT'),
-                             headers: {
-                               'Content-Type' => 'application/json'
-                             }
+      headers: {
+        'Content-Type' => 'application/json'
+      }
   end
 
   def validate_status_code(status_code)
