@@ -47,7 +47,7 @@ yarn add nome_da_lib -D ou npm i nome_da_lib --save-dev
 npm run cy:homol:compareImg
 ```
 
-O comando acima também era executar a comparação de imagem usando a base que está disposta na pasta **snapshots/base/CT_001...**;
+O comando acima também irá executar a comparação de imagem usando um arquivo base que está disposto na pasta **snapshots/base/CT_001...**;
 
 - Gere o relatório com o comando:
 
