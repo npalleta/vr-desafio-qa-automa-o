@@ -1,4 +1,4 @@
-# VR-Desafio-QA-Automacao
+# VR - Desafio QA Automação
 
 ## 📋 Introdução
 
