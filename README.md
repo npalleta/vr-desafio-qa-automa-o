@@ -1,3 +1,5 @@
+#vr-qa-desafio
+
 # VR - Desafio QA Automação
 
 ## 📋 Introdução
@@ -80,6 +82,6 @@ allure serve report/allure-results/
 
 Obrigado!
 
-[⬆ Voltar ao topo](#VR - Desafio QA Automação)
+[⬆ Voltar ao topo](#vr-qa-desafio)
 
 ---
