@@ -82,6 +82,6 @@ allure serve report/allure-results/
 
 Obrigado!
 
-[⬆ Voltar ao topo](#vr-qa-desafio)
+[⬆ Voltar ao topo] <a href="#top">Início</a>
 
 ---
