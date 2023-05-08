@@ -82,6 +82,6 @@ allure serve report/allure-results/
 
 Obrigado!
 
-[⬆ Voltar ao topo] <a href="#top">Início</a>
+[⬆ Voltar ao topo <a href="#top">Clique aqui</a>]
 
 ---
