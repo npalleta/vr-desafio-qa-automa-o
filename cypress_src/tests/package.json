@@ -1,0 +1,46 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Using Cypress + CucumberJS - VR Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit ",
+    "cy:homol": "cypress run --config video=false,screenshotOnRunFailure=true --env type=base fileConfig=baseUrl --browser chrome --headless",
+    "cy:homol:compareImg": "cypress run --config video=false,screenshotOnRunFailure=true --env type=actual fileConfig=baseUrl --browser chrome --headless",
+    "allure:clean": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true",
+    "postcypress:run": "node ./cypress/support/cucumber-html-reporter.js"
+  },
+  "author": "Niky Palleta",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/webpack-preprocessor": "^5.17.1",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@shelex/cypress-allure-plugin": "^2.38.5",
+    "babel-loader": "^9.1.2",
+    "cucumber-html-reporter": "^6.0.0",
+    "cypress": "^12.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-visual-regression": "^3.0.0",
+    "cypress-xpath": "^2.0.1",
+    "webpack": "^5.82.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "html": {
+      "enabled": true,
+      "output": "./cypress/cucumber-html/cucumber.html"
+    },
+    "json": {
+      "enabled": true,
+      "output": "./cypress/cucumber-json/cucumber.json"
+    },
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/steps/**/*.{js,ts}"
+  },
+  "type": "commonjs"
+}
