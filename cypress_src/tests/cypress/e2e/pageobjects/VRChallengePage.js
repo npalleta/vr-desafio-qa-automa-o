@@ -29,8 +29,8 @@ export default class VRChallengePage {
   };
 
   /*
-   * Verifica o link do Google Maps e se a imagem
-   * do mapa é apresentada na página
+   * Verifica o link do Google Maps e se 
+   * a imagem do mapa é apresentada na página
    */
   checkGoogleMapsLink = () => {
     cy.get('#map')
@@ -52,6 +52,11 @@ export default class VRChallengePage {
     // .screenshot('Google Maps');
   };
 
+  /*
+   * Verifica se a imagem base é a mesma
+   * do mapa apresentado na página
+   * A tolerância de diferença não pode ser maior que 10% 
+   */
   compareScreenshotsGoogleMaps = () => {
     cy.compareSnapshot('Google Maps', {
       capture: 'fullPage',
