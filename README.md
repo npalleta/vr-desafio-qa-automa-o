@@ -33,7 +33,7 @@ O link abaixo apresenta a documentação do Allure Framework:
 
 Realize as instalações necessárias:
 
-### Cypress
+### CYPRESS
 - Acesse a pasta **cypress_src/tests/**;
 - Adicione as dependências com os comandos:
 
