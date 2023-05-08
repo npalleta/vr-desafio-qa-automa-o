@@ -3,7 +3,9 @@
 ## 📋 Introdução
 
 Essa é a minha entrega do desafio da VR para a oportunidade de Especialista em QA - Testes.
+
 Backend - O teste foi realizado com Ruby + Cucumber + Allure Report.
+
 Frontend - O teste foi realizado com Cypress + Cucumber + Cucumber HTML Report.  
 
 ## 💻 Pré-requisitos
