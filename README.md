@@ -30,7 +30,7 @@ Instale o ***Allure Commandline***. O link abaixo apresenta a documentação do 
 
 <https://docs.qameta.io/allure/>
 
-Realize as instalações necessárias:
+Realize as demais instalações de execução:
 
 ### CYPRESS
 - Acesse a pasta **cypress_src/tests/**;
