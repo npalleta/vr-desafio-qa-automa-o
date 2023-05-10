@@ -45,6 +45,7 @@ export default class VRChallengePage {
       .should('not.be.empty');
 
     cy.xpath('//*[contains(@title, "Google Maps")]')
+      .last()
       .invoke('attr', 'href')
       .then((href) => {
         cy.visit(href);
