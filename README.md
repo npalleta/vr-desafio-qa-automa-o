@@ -27,6 +27,7 @@ Clone o repositório:
 git clone https://github.com/npalleta/vr-desafio-qa-automacao.git
 ```
 Instale o ***Allure Commandline***
+
 O link abaixo apresenta a documentação do Allure Framework:
 
 <https://docs.qameta.io/allure/>
